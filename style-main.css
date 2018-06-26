@@ -1,0 +1,396 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	overflow: scroll;
+	font-size: 16px;
+}
+
+#iPageLogin{
+	
+	justify-content: center;
+	align-items: center;
+	background-color: #673AB7;
+
+
+}
+#iPageLogin #lblLoginError{
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+#iPageWelcome{
+
+	/*justify-content: center;
+	align-items: center;*/
+	
+	/*color: white;*/
+	background-color: lightgreen;
+	overflow-y: scroll;
+	
+}
+#iViewProductForUser{
+	background: lightgreen;
+}
+
+h1{
+	text-align: center;
+	color:green;
+}
+
+.cPage.show{
+	display: grid;
+}
+
+.show{
+	display: block;
+}
+.hide{
+display:none;
+}
+
+.cPage{
+	
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: none;
+}
+#useriLblWelcomeUserName {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+
+}
+#btnLogout{
+	width:110px; 
+	height: 50px; 
+	margin-top:2%; 
+	margin-left:90%;
+	background-color:lightgreen;
+	color: white;
+	border-radius: 15px;
+	cursor: pointer;
+}
+#userbtnLogout{
+	width:110px; 
+	height: 50px; 
+	margin-top:1%; 
+	margin-left:auto;
+	margin-right: 8%;
+	color: white;
+	border-radius: 15px;
+	background-color:lightgreen;
+	cursor: pointer;
+}
+
+#welcomeUser{
+	margin-top:-22%; 
+	margin-left:70%;
+}
+#userwelcomeUser{
+	 
+	margin-left:70%;
+}
+.mainBtn{
+	align-items: left; 
+	
+	margin-left: 5%;
+	margin-bottom: 35%;
+}
+#ViewOurProduct{
+	display: none; 
+	margin-left: 20px;
+}
+#ViewOurProduct h1{
+	color: yellow;
+}
+
+#addNewUser,#viewAllUser{
+	width:210px; 
+	height: 50px;
+	padding: 1%;
+	margin-top: 1%;
+	background: lightgreen;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#frmAddUser input{
+	width: 40%;    
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 2px solid;
+}
+#btnaddfrmUser{
+	width: 40%;	
+	padding: 1%;
+	margin-top: 1%;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*#viewAllUser{
+	width:210px;
+	 height: 50px;
+}*/
+#addfrmUser{
+	display: none; 
+	margin-left: 20px;
+}
+
+#AddOurProduct{
+	display: none; 
+	margin-left: 20px;
+}
+#btnSaveProduct{
+	width:180px; 
+	height: 50px;
+}
+.logInPage{
+	
+	margin-top: 10%;
+	margin-left: 30%;
+	}
+
+#showLogIn h2{
+	
+	font-size: 30px;
+	color: blue;
+}
+#showLogIn input{ 
+	width: 400px;
+	height: 40px;
+	color: white; 
+	background-color:lightblue; 
+	font-weight: bolder;	
+	font-size: 15px;
+	padding: 5px;
+	border:1px solid green;
+	border-radius: 5px;
+	margin-bottom: 5px; 
+}
+
+#showSignUp{
+display: none;
+}
+#showSignUp input{
+ 
+	width: 400px;
+	height: 40px;
+	color: white; 
+	background-color:lightblue; 
+	font-weight: bolder;	
+	font-size: 15px;
+	padding: 5px;
+	border:1px solid green;
+	border-radius: 5px;
+	margin-bottom: 5px; 
+}
+
+#btnLogIn, #btnSignUp{ 
+	 width: 200px;
+	 height: 40px;
+	 margin-left:0px;
+	border-radius: 6px;	
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	background: green;
+} 
+
+.btnEnter{
+	background-color: green;
+	width: 400px;
+	height: 50px;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+ 
+
+.product{
+display: flex;
+flex-flow: row wrap;
+text-align: center;
+align-items: center;
+margin-bottom: 10%;
+justify-content: center;
+
+}
+
+.myProduct{
+	margin-left: 3%;
+	
+}
+.myProduct img{
+	width:250px;
+	height:250px;
+	margin-top:15px;
+}
+
+#frmProductInfo input{
+	width: 100%;    
+    padding: 2%;
+    margin-top: 4%;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+#AddOurProduct{
+	width: 700px;
+	height: auto;
+	margin-top: 2%;
+	justify-content:  center;
+}
+
+      #map {
+         width: 100%;
+         height: 100%;
+      }
+      #main{
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+      }
+      #admin{
+        padding: 20px;
+        border-left: 1px solid rgba(0,0,0,0.2);
+      }
+
+      #frmSubscribe{
+      	margin-top: 2%;
+      	margin-left: 2%;
+      }
+#frmSubscribe input{
+		width: 70%;
+      	height: auto;
+      	padding: 2%;
+      	margin-top: 2%;
+      	border-radius: 10px;
+      	border: 2px solid;
+}
+
+#btnSaveSubscriber{
+	width: 70%;
+	height: 5%;
+	padding: 2%;
+	margin-top: 2%;
+	background-color:green;
+	cursor:pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+#btn-couple{
+	margin-left: 5%;
+	margin-bottom:2%
+}
+#userViewOurProduct{
+	margin-left: 5%;
+
+}
+#insertUserProfileDetailsHere{
+	margin-top: 10%;
+	margin-left: 25%;
+}
+#frmUserUpdate{
+	margin-right:10%;
+	margin-top: -10%; 
+}
+
+#frmUserUpdate input{
+	width: 50%;    
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 2px solid;
+
+}
+/*.btnProfileUpdate{
+	width: 15%;	
+	padding: 2%;
+	margin-top: 2%;
+	background: lightgreen;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}*/
+#btnSaveProduct{
+	width: 100%;	
+	padding: 1%;
+	margin-top: 1%;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+
+}
+.btnBuyProduct,.btnDeleteProduct,.btnEditProduct{
+	width: 50%;	
+	padding: 2%;
+	margin-top: 2%;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#insertProductDetailsHere{
+	width: 700px;
+	height: auto;
+	margin-top: 3%;
+	justify-content:  center;
+}
+#frmProductUpdate input{
+	width: 100%;    
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 2px solid;
+
+}
+.btnUpdateProduct,.btnProfileUpdate,.btnUpdate{
+	width: 50%;	
+	padding: 1%;
+	margin-top: 2%;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+#ViewOurUser{
+	margin-left: 5%;
+}
+
+.userShowProduct,.userSubscribe,.showProduct,.showUser,.addNewProduct{
+	width:210px;
+	 height: 40px;
+	padding: 0.5%;
+	margin-top: 1%;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}

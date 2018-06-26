@@ -1,8 +1,9 @@
 # webDevelopmentPHP
-# Admin:
-# user Name:jashim
-# password:123
+
+# For Admin:
+# User Name: jashim
+# password: 123
 
 # For User:
 # user Name: imran
-#password:123
+# password: 123
